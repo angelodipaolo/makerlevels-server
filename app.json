@@ -1,0 +1,24 @@
+{
+  "name":"mlevels-api",
+  "description":"",
+  "scripts":{},
+  "env":{
+    "NODE_ENV": "production",
+    "MONGOLAB_URI": {
+      "required": true
+    },
+    "AWS_ACCESS_KEY_ID": {
+      "required": true
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "required": true
+    },
+    "IMAGE_BUCKET": {
+      "required": true
+    },
+    "COOKIE_SECRET": {
+      "generator": "secret"
+    }
+  },
+  "addons":[]
+}
